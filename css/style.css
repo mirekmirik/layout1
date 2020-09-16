@@ -1,0 +1,173 @@
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Noto Sans Japanese Regular'), local('NotoSansJapanese-Regular'), url(https://fonts.gstatic.com/s/notosansjp/v25/-F62fjtqLzI2JPCgQBnw7HFowA.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
+.sec1 {
+  min-height: 800px;
+  position: relative;
+  background-image: url(../img/sec1.png);
+  background-position: center -32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 27px;
+}
+.sec1 .t1 {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sec1 .t2 {
+  text-shadow: 1px 1px 2px rgba(4, 5, 5, 0.41);
+  color: #d33627;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sec1 .t3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  border-radius: 50px;
+  width: 740px;
+  bottom: 0;
+  height: 35px;
+  position: absolute;
+  background-color: #d33627;
+  text-align: center;
+  left: 50%;
+  margin-left: -370px;
+  bottom: 60px;
+}
+.png1 {
+  top: 815px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+}
+.sec2 {
+  background-image: url(../img/sec3.png);
+  min-height: 683px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sec2 .tt1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+.sec2 .tt2 {
+  font-family: "Endurance Pro - Cond Light";
+  font-size: 20px;
+  font-weight: 100;
+  color: #ffffff;
+}
+.sec2 .tt3 {
+  color: #ea4d42;
+  font-family: "Endurance Pro - Cond Bold";
+  font-size: 35px;
+  font-weight: 700;
+}
+.sec2 .tt4 {
+  font-family: "Endurance Pro - Cond Light";
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+}
+.sec2 .borders {
+  width: 340px;
+  height: 215px;
+  border: 1px dashed #ea4d42;
+  vertical-align: center;
+  text-align: center;
+}
+.sec2 .flexis {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.sec2 .text-center {
+  align-items: center;
+  margin-top: 41px;
+}
+.sec2 .vniz1 {
+  padding-top: 60px;
+}
+.sec2 .vniz2 {
+  margin-top: 45px;
+}
+.sec2 .btn {
+  margin-top: 40px;
+  width: 170px;
+  height: 50px;
+  box-shadow: 0 0 76px rgba(234, 77, 66, 0.14);
+  background-color: #ea4d42;
+  border: none;
+  color: #ffffff;
+  font-family: "Endurance Pro - Cond Bold";
+  letter-spacing: 1.53px;
+  text-transform: uppercase;
+}
+.sec2 .tt5 {
+  color: #ffffff;
+  padding-top: 77px;
+  font-size: 21px;
+  text-align: center;
+}
+.sec2 .tt6 {
+  font-family: "Endurance Pro - Cond Bold";
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-top: 7px;
+  text-align: center;
+}
+.sec2 .tt7 {
+  color: #ffffff;
+  padding-top: 28px;
+  font-size: 21px;
+  text-align: center;
+}
+.sec2 .tt8 {
+  color: #ea4d42;
+  font-family: "Endurance Pro - Cond Bold";
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 30px;
+  text-align: center;
+}
+.sec4 {
+  height: 700px;
+  background-color: black;
+}
+.sec4 .img5 {
+  background-image: url(../img/5-layers.png);
+  background-repeat: no-repeat;
+}
